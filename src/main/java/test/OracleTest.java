@@ -24,9 +24,9 @@ public class OracleTest {
              
                 System.out.println("---------------------------");
                  System.out.println(res.getInt("EMPLOYEE_ID"));
-                  System.out.println(res.getInt("FIRST_NAME"));
-                   System.out.println(res.getInt("LAST_NAME"));
-                    System.out.println(res.getInt("EMAIL"));
+                  System.out.println(res.getString("FIRST_NAME"));
+                   System.out.println(res.getString("LAST_NAME"));
+                    System.out.println(res.getString("EMAIL"));
                      System.out.println(res.getString("PHONE_NUMBER"));
             
             }
